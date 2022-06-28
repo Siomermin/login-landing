@@ -78,6 +78,10 @@ body {
   cursor: pointer;
 }
 
+.login__inputs p button::selection {
+    background: none;
+}
+
 .login__inputs p button:hover {
   opacity: 0.90;
   text-decoration: line-through;
